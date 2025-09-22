@@ -1,0 +1,40 @@
+# Privacy Policy — pip Pro
+**Last updated:** 2025-09-22  
+**Publisher:** Aria Vision  
+**Contact:** sn.moosavi@gmail.com
+
+## Summary
+pip Pro does **not** collect, sell, or share personal data. The app is a graphical interface for managing the `pip` command in Python environments. All operations happen locally on your device, except for standard package download requests from public indexes such as PyPI or any other index you configure.
+
+## Data We Do Not Collect
+- No account creation or registration.  
+- No collection of personal identifiers (name, email, phone).  
+- No analytics or telemetry by default.  
+- No access to contacts, location, camera, microphone, or photos.  
+
+## What the App Does
+- **Network access:** Connects to package indexes (e.g., `pypi.org`) to fetch and install packages you request.  
+- **Local storage:** Reads and writes within Python environments and folders you select in order to install, uninstall, or update packages.  
+- **Optional diagnostics (off by default):** If you choose to enable error/crash reporting in future versions, the app may send non-personal technical logs (e.g., error traces, OS/app version) to help fix bugs. You can disable this any time.  
+
+## Third-Party Services
+When you use public or custom package indexes such as PyPI, their own privacy practices apply. We encourage you to review their policies.
+
+## Children’s Privacy
+pip Pro is not directed to children and intentionally collects no personal data.
+
+## Security
+All actions are executed locally unless you explicitly connect to external indexes. We recommend using secure (HTTPS) endpoints when downloading packages.
+
+## Data Retention
+We do not retain personal data. If optional diagnostics are ever enabled and you submit logs, such logs are kept only as long as needed to resolve the issue.
+
+## Your Rights
+Since we do not collect personal data, there is generally nothing to access, modify, or delete. If you contacted us directly, your communication will be used only for responding to your inquiry.
+
+## Changes
+We may update this policy as pip Pro evolves. Any changes will be reflected in the “Last updated” date above and published at this same URL.
+
+## Contact
+If you have questions about this Privacy Policy, please contact us at:  
+**sn.moosavi@gmail.com**
