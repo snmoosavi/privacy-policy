@@ -1,0 +1,80 @@
+Quit Porn Pro — Privacy Policy
+Version 1.0.0 | Effective 12 November 2026
+Publisher: Aria Vision | Contact: sn.moosavi@gmail.com
+
+YOUR PRIVATE WORKSPACE
+Quit Porn Pro is an offline desktop self-help and planning application. There is
+no account, advertising SDK, analytics upload, cloud synchronization, remote AI
+service or publisher-operated backend. Core planning and reflection work offline.
+The publisher cannot remotely read, recover or delete records on your computer.
+
+WHAT YOU CHOOSE TO STORE
+After separate consent during setup, the app stores your selected goals, optional
+reasons, check-ins, mood/urge ratings, notes, recorded time/cost, practice records,
+favorites, future scenarios, letters, support plan, reviews and preferences.
+These records are in workspace.qpp under %LOCALAPPDATA%\QuitPornPro, unless a
+custom test data directory is explicitly configured. UTC timestamps and your
+selected timezone are stored. A manually selected check-in day stays that day.
+
+ENCRYPTION AND LIMITS
+The workspace uses AES-256-GCM authenticated encryption. A random encryption key
+is protected with Windows DPAPI for the current Windows account. If you set a
+workspace password, a scrypt-derived key adds an authenticated encryption layer
+around that protected key. No password or raw key is stored in plain text.
+Quick hide and automatic hide reduce casual exposure; a password-free workspace
+can be reopened by someone using your Windows session. Encryption does not
+provide absolute protection against malware, an administrator, a compromised
+Windows account or information visible while the app is unlocked.
+
+OPTIONAL BROWSER COMPANION
+Chrome/Edge protection requires the companion in each supported browser profile.
+Connecting registers a user-level Native Messaging host in the Chrome and Edge
+registry paths. The host accepts only allowed companion origins and validated
+policy/status messages. It does not execute arbitrary system commands.
+The desktop protection policy and connection records are DPAPI-encrypted on disk.
+They remain available to the host while the journal is locked. The companion
+caches your selected domains, schedule, session end and optional pause messages
+in browser local extension storage. Browser storage is not the password-encrypted
+journal vault. Do not put sensitive journal details in optional pause messages.
+The companion uses declarative rules and does not read page content, capture
+screenshots, collect browsing history, retain visited URLs or count blocked visits.
+It reports a random profile identifier, browser family, rule count, active status,
+private-browsing permission and check time locally. No such status goes to Aria
+Vision. Incognito coverage requires explicit browser permission and separate testing.
+
+NETWORK ACCESS
+The desktop app performs no automatic network requests. Clicking educational,
+support, privacy or marketplace links opens your browser/email application, which
+communicates with that destination. Normal technical information such as IP
+address may be received by those services under their own policies. Support email
+is never sent automatically. The installed companion fetches only its packaged
+local metadata, not remote scripts, URLs or blocklists. Microsoft/Google handle
+Store purchases, installs and updates under their own privacy policies.
+The public policy page is served by GitHub Pages without publisher-added tracking.
+
+NOTIFICATIONS
+Notifications are optional and off initially. Wording is neutral and does not
+include sexual goals, journal notes or personal reasons. Reminders require the
+app to be running and the workspace to be unlocked. Quiet hours, a daily cap,
+tone and a pause for today are configurable. No background startup is installed.
+
+YOUR CONTROLS
+Use Settings to create an authenticated portable backup with a separate password,
+restore a valid backup, export readable records, or delete local workspace data.
+Readable exports and personal domain-list exports are not encrypted. A damaged
+backup or wrong backup password does not replace the current vault. Passwords
+cannot be recovered by the publisher. Keep a secure backup and its password.
+Deleting local data removes the app vault, policy, status files and native-host
+registration. Remove the companion in each browser to delete its cached policy.
+External exports/backups and browser storage are not deleted by the desktop app.
+Normal Windows/browser uninstall remains available. Because the native host uses
+shared local storage, those local files may persist after uninstall; use Delete
+all local data first if desired. File deletion does not guarantee SSD erasure.
+
+AUDIENCE AND SUPPORT
+This product is intended for adults choosing their own habits. It contains no
+explicit imagery and provides no medical diagnosis or treatment. It does not
+send reports to employers, family members or support contacts automatically.
+For privacy/support requests, contact Aria Vision at sn.moosavi@gmail.com. Include
+the product name but avoid sending passwords or unnecessary sensitive records.
+Material changes to these practices require an updated policy and release notes.
